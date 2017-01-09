@@ -4,7 +4,9 @@
   "description": "Learning test codes for [Packt]Learning JavaScript Data Structures and Algorithms - v2 ",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babel": "babel --presets es2015 src/main.js -o build/main.bundle.js",
+    "start": "http-server -p 9000"
   },
   "keywords": [
     "JavaScript",
@@ -15,6 +17,11 @@
   "author": "Wendy",
   "license": "MIT",
   "devDependencies": {
-    "gulp": "^3.9.1"
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.21.0",
+    "babel-preset-env": "^1.1.6",
+    "babel-preset-es2015": "^6.18.0",
+    "gulp": "^3.9.1",
+    "http-server": "^0.9.0"
   }
 }
