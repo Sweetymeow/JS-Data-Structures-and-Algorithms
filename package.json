@@ -1,0 +1,20 @@
+{
+  "name": "javascript_datastructures",
+  "version": "1.0.0",
+  "description": "Learning test codes for [Packt]Learning JavaScript Data Structures and Algorithms - v2 ",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "JavaScript",
+    "Data",
+    "Strctures",
+    "Algorithms"
+  ],
+  "author": "Wendy",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
